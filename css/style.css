@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.topoPagina {
+    height: 30px;
+    background-color: rgb(53, 52, 52);
+}
+
+.subTopoPagina {
+    height: 30px;
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.miniMenu {
+    height: 30px;
+    width: 50%;
+    float: left;
+}
+
+.miniMenu ul {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    list-style: none;
+}
+
+.miniMenu li {
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.miniMenu li a {
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+
+.miniMenu li .ativo {
+    color: rgb(37, 37, 238);
+
+}
+
+.redesSociais img {
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.topoBusca {
+    float: right;
+    outline: none;
+    height: 20px;
+    line-height: 30px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.lupa {
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+
+
+/* LOGO */
+
+.topo {
+    height: 95px;
+    color: #fff;
+
+}
+
+.topoInterno {
+    height: 95px;
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.logo {
+    width: 230px;
+    height: 95px;
+    float: left;
+}
+
+.logo img {
+    height: 80px;
+    float: left;
+    margin-top: 12px;
+
+
+}
+
+.topo .banner {
+    height: 80px;
+    width: 650px;
+    float: right;
+    margin-top: 7px;
+    background-color: red;
+}
+
+/*MENU*/
+
+.menu {
+    height: 40px;
+    margin: auto;
+    background-color: red;
+}
+
+.menuInterior {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+
+.menuInterior ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 14px;
+}
+
+.menu li:hover .subMenu {
+    /*Para abrir o submenu*/
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/*DropDown*/
+
+.subMenu {
+    /*sem altura pra ficar responsivo*/
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    display: none;
+}
+
+.subMenuItem {
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.subMenuItem:hover {
+    background-color: rgb(223, 0, 0);
+}
+
+/*ULTIMAS NOTICIAS*/
+
+.news {
+    height: 40px;
+}
+
+.newsInterno {
+    height: 40px;
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.newsInternoArea {
+    height: 28px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.newsTitulo {
+    height: 28px;
+    line-height: 28px;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.newsTexto {
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    color: black;
+    padding-left: 10px;
+}
+
+/*Container*/
+
+
+
+.containerInterior {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.rightSide {
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    margin-left: 12px;
+}
+
+.leftSide {
+    width: 753px;
+    float: left;
+}
+
+.widget {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.widgetTitulo {
+    height: 30px;
+    border-bottom: 1px solid #CCC;
+    background-color: #DDD;
+    line-height: 30px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.widgetConteudo {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.newsItem {
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    margin: 0px 10px;
+    padding: 10px 0px;
+}
+
+.newsItem a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsItem a:hover {
+    color: rgb(150, 150, 150);
+}
+
+
+.slideShow {
+    height: 330px;
+    overflow: hidden;
+    /*quando o conteudo passa do tamanho da div ele corta / coloca scrool / ou auto*/
+    margin-bottom: 15px;
+}
+
+.slideShowArea {
+    width: 100000px;
+    height: 330px;
+    background-color: #ddd;
+    transition: all 1s;
+
+}
+
+.slides {
+    height: 330px;
+    width: 753px;
+    float: left;
+    /*as divs vão ficar uma ao lado da outra e vão revezando*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.slideInfo {
+    height: 70px;
+    margin-top: 270px;
+    margin-left: 15px;
+}
+
+.slideInfoTitulo {
+    font-size: 16px;
+    color: white;
+    padding: 3px;
+}
+
+.slideInfoSub {
+    font-size: 13px;
+    color: white;
+    padding: 3px;
+}
+
+.slidebolinhas {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.bolinha {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+
+.noticiaArea1 {
+    width: 430px;
+    float: left;
+    height: 420px;
+
+}
+
+.noticiaArea2 {
+    width: 320px;
+    float: left;
+    height: 420px;
+
+}
+
+.noticiaImagem {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    float: left;
+}
+
+.noticiaTitulo {
+    width: 226px;
+    margin-left: 6px;
+    font-size: 16px;
+    float: left;
+}
+
+.noticiaItem {
+    text-align: left;
+    height: 88px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.noticiaInfo {
+    width: 226px;
+    font-size: 12px;
+    margin-left: 6px;
+    margin-top: 6px;
+    color: #999;
+    float: left;
+}
+
+.noticiaGrande .noticiaImagem {
+    width: 400px;
+    height: 222px;
+    margin-left: 10px;
+}
+
+.noticiaGrande .noticiaImagem img {
+    width: 400px;
+    height: 222px;
+}
+
+.noticiaGrande .noticiaTitulo {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.noticiaGrande .noticiaInfo {
+    font-size: 14px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.menumobile {
+    display: none;
+}
+
+
+
+
+/*Responsividade*/
+
+
+@media only screen and (min-width:889px) and (max-width: 1040px) {
+
+    .subTopoPagina,
+    .topoInterno,
+    .menuInterior,
+    .newsInterno,
+    .containerInterior {
+        max-width: 890px;
+    }
+
+    .topoBusca{
+        width: 100px;
+    }
+
+    .leftSide {
+        width: 603px;
+    }
+
+    .noticiaArea1 {
+        width: 281px;
+    }
+
+    .noticiaGrande .noticiaImagem {
+        width: 260px;
+    }
+
+    .noticiaGrande .noticiaImagem img {
+        width: 260px;
+    }
+
+    .noticiaGrande .noticiaTitulo {
+        font-size: 15px;
+        width: 258px;
+    }
+
+    .noticiaGrande .noticiaInfo {
+        font-size: 12px;
+        width: 267px;
+    }
+}
+
+
+@media only screen and (min-width: 741px) and (max-width: 890px) {
+
+    .subTopoPagina,
+    .topoInterno,
+    .menuInterior,
+    .newsInterno,
+    .containerInterior {
+        max-width: 758px;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .topoInterno .logo {
+        float: none;
+        margin: auto;
+    }
+
+    .redesSociais img {
+        width: 22px;
+    }
+
+    .leftSide {
+        width: 603px;
+        float: none;
+        width: auto;
+    }
+
+    #menu {
+        display: block !important;
+    }
+
+    .rightSide {
+        display: none;
+    }
+
+    .noticiaArea1 {
+        width: 419px;
+    }
+
+    .noticiaGrande .noticiaImagem {
+        width: 385px;
+    }
+
+    .noticiaGrande .noticiaImagem img {
+        width: 382px;
+    }
+
+    .noticiaGrande .noticiaTitulo {
+        font-size: 18px;
+        width: 370px;
+    }
+
+    .noticiaGrande .noticiaInfo {
+        font-size: 14px;
+        width: 386px;
+    }
+
+}
+
+@media only screen and (max-width: 740px) {
+
+    .subTopoPagina,
+    .topoInterno,
+    .menuInterior,
+    .newsInterno,
+    .containerInterior {
+        max-width: 320px;
+    }
+
+    .miniMenu {
+        display: none;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .topoInterno .logo {
+        float: none;
+        margin: auto;
+    }
+
+    .redesSociais img {
+        width: 22px;
+    }
+
+    .leftSide {
+        width: 603px;
+        float: none;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .rightSide {
+        display: none;
+    }
+
+    .redesSociais {
+        width: 100%;
+    }
+
+    .topoBusca {
+        width: 110px;
+    }
+
+   .menu{
+    width: 100%;
+    background-color: red;
+   }
+
+   .menumobile{
+    display: block;
+   }
+
+   .menu ul {
+    position: absolute;
+    background-color: red;
+    z-index: 10;
+    display: none;
+   }
+
+   .menu li {
+    float: none;
+    height: auto;    
+   }
+
+   .menu li img {
+    display: none;
+   }
+
+   .subMenu{
+    position: static;
+    display: block;
+   }
+
+    .news {
+        display: none;
+    }
+
+    .noticiaArea1 {
+        width: 419px;
+        height: auto;
+    }
+
+    .noticiaGrande .noticiaImagem {
+        width: 294px;
+    }
+
+    .noticiaGrande .noticiaImagem img {
+        width: 292px;
+        height: 221px;
+    }
+
+    .noticiaGrande .noticiaTitulo {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .noticiaGrande .noticiaInfo {
+        font-size: 12px;
+        width: 309px;
+        margin-bottom: 10px;
+    }
+
+    .noticiaInfo {
+        width: 220px;
+    }
+}

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Portal</title>
+</head>
+
+<body>
+    <!--Topo Página-->
+    <div class="topoPagina">
+        <div class="subTopoPagina">
+            <div class="miniMenu">
+                <ul>
+                    <li><a href="./" class="ativo">Home</a></li>
+                    <li><a href="quem-somos"> Quem somos</a></li>
+                    <li><a href="anuncie-aqui">Anuncie aqui</a></li>
+                    <li><a href="contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="redesSociais">
+                <input type="image" src="img/search.png" class="lupa" />
+                <input type="text" placeholder="Digite aqui..." class="topoBusca" />
+                <a href=""><img src="img/rss.png" alt=""></a>
+                <a href=""><img src="img/twitter.png" alt=""></a>
+                <a href=""><img src="img/google-plus.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" alt=""></a>
+                <a href=""><img src="img/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Logo e Banner-->
+
+    <div class="topo">
+        <div class="topoInterno">
+            <div class="logo">
+                <img src="img/768px-Portal_Logo.svg.png" />
+            </div>
+            <div class="banner">
+
+            </div>
+        </div>
+    </div>
+
+    <!--Menu-->
+
+    <div class="menu">
+        <div class="menuInterior">
+            <img src="img/menu.png" alt="" width="30" height="30" class="menumobile" onclick="toggleMenu()"/>
+            <ul id="menu" display="none">
+                <li><a href="./" class="ativo">Home</a></li>
+                <li><a href="./">Economia</a></li>
+                <li>
+                    <a href="./">Entretenimento</a>
+                    <img src="img/down-arrow.png" width="10">
+                    <div class="subMenu">
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 1</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 2</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 3</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 4</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 5</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="./">Esportes</a>
+                    <img src="img/down-arrow.png" width="10">
+                    <div class="subMenu">
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 1</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 2</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 3</div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="./">Geral</a></li>
+                <li>
+                    <a href="./">Noticias</a>
+                    <img src="img/down-arrow.png" width="10">
+                    <div class="subMenu">
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 1</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 2</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 3</div>
+                        </a>
+                        <a href="./">
+                            <div class="subMenuItem">Sub menu 4</div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="./">Polícia</a></li>
+                <li><a href="./">Vídeos</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!--Ultimas Noticias-->
+
+    <div class="news">
+        <div class="newsInterno">
+            <div class="newsInternoArea">
+                <div class="newsTitulo">
+                    ÚLTIMAS NOTÍCIAS
+                </div>
+                <div class="newsTexto">
+                    Alguma notícia de algum texto que ficara por aqui mesmo.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Container-->
+
+    <div class="container">
+        <div class="containerInterior">
+            <div class="leftSide">
+                <div class="slideShow" id="slideshow">
+                    <div class="slidebolinhas">
+                        <div class="bolinha" onclick="mudarSlide(0)"></div>
+                        <div class="bolinha" onclick="mudarSlide(1)"></div>
+                        <div class="bolinha" onclick="mudarSlide(2)"></div>
+                        <div class="bolinha" onclick="mudarSlide(3)"></div>
+                    </div>
+                    <div class="slideShowArea">
+                        <a target="_blank"
+                            href="https://imagens.ebc.com.br/vP--zM1nawRui3mL7SOGQw0KtNo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/leandro_lo_obituario_jiu_jitsu.jpg?itok=C00TPHOg">
+                            <!--Para linkar foto com site-->
+                            <div class="slides"
+                                style="background-image:url('https://imagens.ebc.com.br/vP--zM1nawRui3mL7SOGQw0KtNo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/leandro_lo_obituario_jiu_jitsu.jpg?itok=C00TPHOg')">
+                                <div class="slideInfo">
+                                    <div class="slideInfoTitulo">
+                                        <bold>Leandro Lo</bold>
+                                    </div>
+                                    <div class="slideInfoSub">
+                                        O oito vezes campeão mundial IBBJF em ação.
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a target="_blank"
+                                href="https://www.lojamaria.com.br/wp-content/uploads/2021/02/jiu-e1613139289896.jpg">
+                                <!--Para linkar foto com site-->
+                                <div class="slides"
+                                    style="background-image:url('https://www.lojamaria.com.br/wp-content/uploads/2021/02/jiu-e1613139289896.jpg')">
+                                    <div class="slideInfo">
+                                        <div class="slideInfoTitulo">
+                                            <bold>Nicolas Meregali</bold>
+                                        </div>
+                                        <div class="slideInfoSub">
+                                            Polêmico lutador gaúcho ganha cada vez mais destaque.
+                                        </div>
+                                    </div>
+                                </div>
+                                <a target="_blank"
+                                    href="https://thumbor.clickpb.com.br/r5yjGCIkatRqqQTd5pkqytGkkco=/1410x650/top/smart/www.clickpb.com.br/media/filer_public/57/65/5765997f-8ccd-46cb-a46d-ac9d2cf0f958/tetra_marcus_buchecha_vence_erberth.jpeg">
+                                    <!--Para linkar foto com site-->
+                                    <div class="slides"
+                                        style="background-image:url('https://thumbor.clickpb.com.br/r5yjGCIkatRqqQTd5pkqytGkkco=/1410x650/top/smart/www.clickpb.com.br/media/filer_public/57/65/5765997f-8ccd-46cb-a46d-ac9d2cf0f958/tetra_marcus_buchecha_vence_erberth.jpeg') ; height: 330px;">
+                                        <div class="slideInfo">
+                                            <div class="slideInfoTitulo">
+                                                <bold>Eberth Santos</bold>
+                                            </div>
+                                            <div class="slideInfoSub">
+                                                Atleta de Roraima que vem ganhando o mundo.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a target="_blank"
+                                        href="https://i0.wp.com/rhinobjj.com.br/wp-content/uploads/2022/01/podcast-roger-gracie.jpg?fit=788%2C443&ssl=1">
+                                        <!--Para linkar foto com site-->
+                                        <div class="slides" id="roger"
+                                            style="background-image:url('https://i0.wp.com/rhinobjj.com.br/wp-content/uploads/2022/01/podcast-roger-gracie.jpg?fit=788%2C443&ssl=1') ;">
+                                            <div class="slideInfo">
+                                                <div class="slideInfoTitulo">
+                                                    <bold>Roger Gracie</bold>
+                                                </div>
+                                                <div class="slideInfoSub">
+                                                    O maior da história.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                    </div>
+                </div>
+
+                <!--Parte inferior, dentro do leftSide-->
+
+                <div class="widget">
+                    <div class="widgetTitulo">NOTÍCIAS</div>
+                    <div class="widgetConteudo">
+                        <div class="noticiaArea1 noticiaGrande">
+
+                            <div class="noticiaItem">
+                                <div class="noticiaImagem">
+                                    <img src="img/adcc.jpg" width="80px" height="80px">
+                                </div>
+                                <div class="noticiaTitulo">ADCC acontece em setembro e contará com lendas e grandes
+                                    promessas em uma edição que deve ser histórica.</div>
+                                <div class="noticiaInfo">Edição de 2022 colocará frente a frente alguns dos maiores
+                                    nomes do grappling mundial juntamente com fenômenos do pano que se aventuram na luta
+                                    agarrada sem pano.</div>
+                            </div>
+
+                        </div>
+                        <div class="noticiaArea2">
+                            <div class="noticiaItem">
+                                <div class="noticiaImagem">
+                                    <img src="img/barral.jpg" width="80px" height="80px">
+                                </div>
+                                <div class="noticiaTitulo">Barral vence e vence.</div>
+                                <div class="noticiaInfo">Rominho não surpreender e vence nova etapa de campeonato. Com
+                                    essa já são 13 vitórias seguidas.</div>
+                            </div>
+
+                            <div class="noticiaItem">
+                                <div class="noticiaImagem">
+                                    <img src="img/gordon-ryan.jpg" width="80px" height="80px">
+                                </div>
+                                <div class="noticiaTitulo">Gordon em sua melhor versão.</div>
+                                <div class="noticiaInfo">Em semana final de preparação para o ADCC 2022, Gordon segue
+                                    assombrando o mundo.</div>
+                            </div>
+
+                            <div class="noticiaItem">
+                                <div class="noticiaImagem">
+                                    <img src="img/mica.jpg" height="80px" width="80px">
+                                </div>
+                                <div class="noticiaTitulo">Fenômeno.</div>
+                                <div class="noticiaInfo">Quem poderá para o fenomeno amazonese Micael Galvão.</div>
+                            </div>
+
+                            <div class="noticiaItem">
+                                <div class="noticiaImagem">
+                                    <img src="img/andre_galvao.jpg" width="80px" height="80px">
+                                </div>
+                                <div class="noticiaTitulo">Pronto pra guerra.</div>
+                                <div class="noticiaInfo">Aos 38 anos André Galvão promete sua melhor versão para o ADCC
+                                    2022: "Vou chocar o mundo.".</div>
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Lado Direito da tela-->
+
+            <div class="rightSide">
+                <div class="widget">
+                    <div class="widgetTitulo">SOCIAL</div>
+                    <div class="widgetConteudo">
+                        <a href=""><img src="img/rss.png" width="26" height="26"></a>
+                        <a href=""><img src="img/twitter.png" width="26" height="26"></a>
+                        <a href=""><img src="img/google-plus.png" width="26" height="26"></a>
+                        <a href=""><img src="img/facebook.png" width="26" height="26"></a>
+                        <a href=""><img src="img/instagram.png" width="26" height="26"></a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widgetTitulo">ÚLTIMAS NOTICIAS</div>
+                    <div class="widgetConteudo">
+                        <div class="newsItem">
+                            <a href="./"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus lorem
+                                vitae aliquet aliquam. Morbi tellus nibh, semper aliquet quam sed, semper posuere
+                                neque.</a>
+                        </div>
+                        <div class="newsItem">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus lorem
+                                vitae aliquet aliquam. Morbi tellus nibh, semper aliquet quam sed, semper posuere
+                                neque.</a>
+                        </div>
+                        <div class="newsItem">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus lorem
+                                vitae aliquet aliquam. Morbi tellus nibh, semper aliquet quam sed, semper posuere
+                                neque.</a>
+                        </div>
+                        <div class="newsItem">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus lorem
+                                vitae aliquet aliquam. Morbi tellus nibh, semper aliquet quam sed, semper posuere
+                                neque.</a>
+                        </div>
+                        <div class="newsItem">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus lorem
+                                vitae aliquet aliquam. Morbi tellus nibh, semper aliquet quam sed, semper posuere
+                                neque.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widgetTitulo">PUBLICIDADE</div>
+                    <div class="widgetConteudo"><img src="img/boxer.jpg" width="275" alt=""></div>
+                </div>
+                <div class="widget">
+                    <div class="widgetTitulo">ENCONTRE-NOS NO FACEBOOK</div>
+                    <div class="widgetConteudo">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fflograppling&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="275" height="275" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
